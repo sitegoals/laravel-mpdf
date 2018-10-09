@@ -2,18 +2,18 @@
 
 Require this package in your composer.json and update composer.
 ```
-composer require praem90/laravel-mpdf
+composer require willmav5000/laravel-mpdf
 ```
 
 ## Installation
 ### Laravel 5.x
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    Praem90\PDF\ServiceProvider::class,
+    Willmav5000\PDF\ServiceProvider::class,
 
 You can optionally use the facade for shorter code. Add this to your facades:
 
-    'PDF' => Praem90\PDF\Facade::class,
+    'PDF' => Willmav5000\PDF\Facade::class,
 
 ## Using
 

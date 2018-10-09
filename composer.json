@@ -1,24 +1,26 @@
 {
-    "name": "praem90/laravel-mpdf",
+    "name": "willmav5000/laravel-mpdf",
     "description": "A mPDF Wrapper for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "mpdf", "pdf"],
     "authors": [
+        {
+            "name": "Will Mather",
+            "email": "willmav5000@gmail.com"
+        },
         {
             "name": "Mohan Raj M",
             "email": "praem1990@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.x.x",
-        "mpdf/mpdf": "^6.1"
-
+        "php": ">=5.6",
+        "mpdf/mpdf": "^7.0"
     },
 
     "autoload": {
         "psr-4": {
-            "Praem90\\PDF\\": "src"
+            "Willmav5000\\PDF\\": "src"
         }
     },
     "extra": {
@@ -27,10 +29,10 @@
         },
         "laravel": {
             "providers": [
-                "Praem90\\PDF\\ServiceProvider"
+                "Willmav5000\\PDF\\ServiceProvider"
             ],
             "aliases": {
-                "PDF": "Praem90\\PDF\\Facade"
+                "PDF": "Willmav5000\\PDF\\Facade"
             }
         }
     },

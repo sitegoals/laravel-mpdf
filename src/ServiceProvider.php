@@ -1,6 +1,6 @@
 <?php
 
-namespace Praem90\PDF;
+namespace Willmav5000\PDF;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
